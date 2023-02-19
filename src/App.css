@@ -1,0 +1,13 @@
+.navbar ul{
+  display: flex;
+  background-color: #68f0fc;
+  margin: 0;
+
+}
+
+.navbar li {
+  list-style-type: none; /* Remove bullets */
+  padding: 25px;
+  margin: 0;
+  font-size: 20px;
+}

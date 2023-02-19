@@ -4,7 +4,6 @@ import { Routes, Route, Outlet, Link } from "react-router-dom";
 export default function App() {
   return (
     <div className="App">
-      <h1>Welcome to Project One!</h1>
       <Routes>
         <Route path="/" element={<Layout />}>
 
@@ -18,7 +17,7 @@ export default function App() {
 function Layout() {
   return (
     <div>
-      <nav>
+      <nav className='navbar'>
         <ul>
           <li>Home</li>
           <li>Places</li>
