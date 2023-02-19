@@ -18,12 +18,22 @@ function Layout() {
   return (
     <div>
       <nav className='navbar'>
-        <ul>
-          <li>Home</li>
-          <li>Places</li>
-          <li>Food</li>
-          <li>Attractions</li>
-          <li>Map</li>
+      <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/lodging">Lodging</Link>
+          </li>
+          <li>
+            <Link to="/restaurants">Restaurants</Link>
+          </li>
+          <li>
+            <Link to="/attractions">Attractions</Link>
+          </li>
+          <li>
+            <Link to="/map">Map</Link>
+          </li>
         </ul>
       </nav>
       <Outlet />

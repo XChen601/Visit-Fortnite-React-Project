@@ -2,7 +2,7 @@
   display: flex;
   background-color: #68f0fc;
   margin: 0;
-
+  
 }
 
 .navbar li {
@@ -10,4 +10,8 @@
   padding: 25px;
   margin: 0;
   font-size: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
 }
