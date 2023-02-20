@@ -1,12 +1,17 @@
 import './App.css';
 import { Routes, Route, Outlet, Link } from "react-router-dom";
 
+import Attractions from './components/Attractions'
+import Lodging from './components/Lodging' 
+import Map from './components/Map' 
+import Restaurants from './components/Restaurants' 
+
 export default function App() {
   return (
     <div className="App">
       <Routes>
         <Route path="/" element={<Layout />}>
-
+          
           <Route path="*" element={<NoMatch />} />
         </Route>
       </Routes>
