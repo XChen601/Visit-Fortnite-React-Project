@@ -11,7 +11,10 @@ export default function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<Layout />}>
-          
+          <Route path="/lodging" element={<Lodging />} />
+          <Route path="/restaurants" element={<Restaurants />} />
+          <Route path="/attractions" element={<Attractions />} />
+          <Route path="/map" element={<Map />} />
           <Route path="*" element={<NoMatch />} />
         </Route>
       </Routes>
