@@ -10,17 +10,17 @@ function Homepage() {
                     Lodging
                 </div>
             </Link>
-            <Link to={'/lodging'}>
+            <Link to={'/restaurants'}>
                 <div className='grid-item restaurants'>
                     Restaurants
                 </div>
             </Link>
-            <Link to={'/lodging'}>
+            <Link to={'/attractions'}>
                 <div className='grid-item attractions'>
                     Attractions
                 </div>
             </Link>
-            <Link to={'/lodging'}>
+            <Link to={'/map'}>
                 <div className='grid-item map'>
                     Map
                 </div>
