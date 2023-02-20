@@ -4,16 +4,46 @@ body {
 
 .grid-container {
     display: grid;
-    grid-auto-rows: minmax(350px, 1fr);
+
     grid-template-columns: repeat(2, minmax(250px, 1fr));
 }
 
 .grid-item {
-    background-color: #444;
+    background-color: black;
     text-align: center;
     color: #ddd;
     font-family: sans-serif;
     font-size: 1.5rem;
     padding: 12px;
-    margin: 3%;
+    margin: 4% 15%;
+    aspect-ratio: 5/3;
+    border-radius: 20px;
+    border: medium solid green;
+    background-size: 100%;
+    transition: transform .5s ease-in-out;
+}
+
+.grid-item:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+.map {
+    background: url("../img/Season_1_Map.webp") no-repeat;
+    background-size: 100%;
+}
+
+.restaurants {
+    background: url("../img/tomatoeTown.webp") no-repeat;
+    background-size: 110%;
+}
+
+.lodging {
+    background: url("../img/Pleasant_Park_29_-_Location_-_Fortnite.webp") no-repeat;
+    background-size: 110%;
+}
+
+.attractions {
+    background: url("../img/Flush_Factory_-_Location_-_Fortnite.webp") no-repeat;
+    background-size: 110%;
 }
