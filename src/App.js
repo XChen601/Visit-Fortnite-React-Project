@@ -5,13 +5,18 @@ import Attractions from './components/Attractions'
 import Lodging from './components/Lodging' 
 import Map from './components/Map' 
 import Restaurants from './components/Restaurants' 
+import Homepage from './components/Homepage';
 
 export default function App() {
   return (
     <div className="App">
       <Routes>
         <Route path="/" element={<Layout />}>
-          
+          <Route index element={<Homepage />} />
+          <Route path="/lodging" element={<Lodging />} />
+          <Route path="/restaurants" element={<Restaurants />} />
+          <Route path="/attractions" element={<Attractions />} />
+          <Route path="/map" element={<Map />} />
           <Route path="*" element={<NoMatch />} />
         </Route>
       </Routes>
