@@ -1,21 +1,30 @@
 import './css/Homepage.css'
+import {Routes, Route, Outlet, Link} from 'react-router-dom'
+
 function Homepage() {
     return (
       <div className="homepage">
         <div className="grid-container">
-            <button className='grid-item lodging'>
-                Lodging
-            </button>
-            <button className='grid-item restaurants'>
-                Restaurants
-            </button>
-            <button className='grid-item attractions'>
-                Attractions
-            </button>
-            <button className='grid-item map'>
-                Map
-            </button>
-            
+            <Link to={'/lodging'}>
+                <div className='grid-item lodging'>
+                    Lodging
+                </div>
+            </Link>
+            <Link to={'/lodging'}>
+                <div className='grid-item restaurants'>
+                    Restaurants
+                </div>
+            </Link>
+            <Link to={'/lodging'}>
+                <div className='grid-item attractions'>
+                    Attractions
+                </div>
+            </Link>
+            <Link to={'/lodging'}>
+                <div className='grid-item map'>
+                    Map
+                </div>
+            </Link>
         </div>
       </div>
     );
