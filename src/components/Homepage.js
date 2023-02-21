@@ -5,25 +5,17 @@ function Homepage() {
     return (
       <div className="homepage">
         <div className="grid-container">
-            <Link to={'/lodging'}>
-                <div className='grid-item lodging'>
-                    Lodging
-                </div>
+            <Link to={'/lodging'} className='grid-item lodging'>
+                Lodging
             </Link>
-            <Link to={'/restaurants'}>
-                <div className='grid-item restaurants'>
-                    Restaurants
-                </div>
+            <Link to={'/restaurants'} className='grid-item restaurants'>
+                Restaurants
             </Link>
-            <Link to={'/attractions'}>
-                <div className='grid-item attractions'>
-                    Attractions
-                </div>
+            <Link to={'/attractions'} className='grid-item attractions'>
+                Attractions
             </Link>
-            <Link to={'/map'}>
-                <div className='grid-item map'>
-                    Map
-                </div>
+            <Link to={'/map'} className='grid-item map'>
+                Map
             </Link>
         </div>
       </div>

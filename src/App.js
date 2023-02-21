@@ -11,7 +11,7 @@ export default function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/" element={<Header />}>
           <Route index element={<Homepage />} />
           <Route path="/lodging" element={<Lodging />} />
           <Route path="/restaurants" element={<Restaurants />} />
@@ -24,7 +24,7 @@ export default function App() {
   );
 }
 
-function Layout() {
+function Header() {
   return (
     <div>
       <nav className='navbar'>
