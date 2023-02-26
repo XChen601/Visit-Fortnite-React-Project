@@ -11,7 +11,7 @@ import Homepage from './components/Homepage';
 export default function App() {
   return (
     <div className="App">
-      <Routes>
+      <Routes basename="/Visit-Fortnite-React-Project">
         <Route path="/" element={<Header />}>
           <Route index element={<Homepage />} />
           <Route path="/lodging" element={<Lodging />} />
