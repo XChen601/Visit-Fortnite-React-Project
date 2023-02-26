@@ -13,19 +13,23 @@ button {
     border: none;
     border-radius: 15px;
     box-shadow: 0 0 10px 5px var(--third-color);
-    transition: transform .5s;
+    transition: transform .5s, box-shadow 1s ease-in;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: none;
 }
 
 .left {
     margin: 10px 50px 50px 80px;
     font-size: 23px;
     letter-spacing: 2px;
+    line-height: 1.8;
 }
 
-button:hover {
-    cursor: pointer;
-    transform: scale(1.05);
-}
+
 
 .lodging, .attractions {
     background-color: var(--main-bg-color);
@@ -37,7 +41,7 @@ button:hover {
 
 .right {
     display: grid;
-    margin: 3% 20%;
+    margin: 5% 20%;
 }
 
 .lodging-button {
