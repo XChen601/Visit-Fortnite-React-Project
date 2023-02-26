@@ -61,7 +61,7 @@ function Homepage() {
                      through the world of Fortnite!</p>
             </div>
             <div className='right'>
-                <button className='map-button' onClick={() => {navigate('/map')}}>Attractions Button</button>
+                <button className='map-button' onClick={() => {navigate('/map')}}>Map Button</button>
             </div>
         </div>
       </div>

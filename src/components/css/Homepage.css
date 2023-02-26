@@ -1,6 +1,7 @@
 :root {
     --main-bg-color: #90EE90;
     --secondary-bg-color: #c3f0c3;
+    --third-color: #68f0fc;
 }
 
 .section {
@@ -12,6 +13,18 @@
     margin: 0 50px 50px 80px;
     font-size: 23px;
     letter-spacing: 2px;
+}
+
+button {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 5px var(--third-color);
+    transition: transform .5s;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 .lodging, .attractions {
@@ -41,3 +54,9 @@
     background: url("../img/Flush_Factory_-_Location_-_Fortnite.webp") no-repeat center center;
     background-size: 100% 100%;
 }
+
+.map-button {
+    background: url("../img/Season_1_Map.webp") no-repeat center center;
+    background-size: 100% 100%;
+}
+
