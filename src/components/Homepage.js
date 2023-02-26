@@ -1,8 +1,10 @@
 import './css/Homepage.css'
 import {Routes, Route, Outlet, Link} from 'react-router-dom'
-import {withRouter} from 'react-router-dom';
+import { useNavigate  } from 'react-router-dom';
 
 function Homepage() {
+    const navigate = useNavigate();
+
     return (
       <div className="homepage">
         <div className="lodging section">
@@ -15,7 +17,7 @@ function Homepage() {
                      So pack your bags and get ready to explore the world of Fortnite!</p>
             </div>
             <div className='right'>
-                <button>Lodging Button</button>
+                <button className='lodging-button' onClick={() => {navigate('/lodging')}}>Lodging Button</button>
             </div>
         </div>
         <div className="restaurants section">
@@ -29,7 +31,7 @@ function Homepage() {
                      the island's culinary delights!</p>
             </div>
             <div className='right'>
-                <button>Restaurants Button</button>
+                <button className='restaurants-button' onClick={() => {navigate('/restaurants')}}>Restaurants Button</button>
             </div>
         </div>
         <div className="attractions section">
@@ -44,7 +46,7 @@ function Homepage() {
                        to leave you feeling exhilarated and inspired. So what are you waiting for? Come explore the island of Fortnite today!</p>
             </div>
             <div className='right'>
-                <button>Attractions Button</button>
+                <button className='attractions-button' onClick={() => {navigate('/attractions')}}>Attractions Button</button>
             </div>
         </div>
       </div>
