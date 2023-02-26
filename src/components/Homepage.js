@@ -49,6 +49,21 @@ function Homepage() {
                 <button className='attractions-button' onClick={() => {navigate('/attractions')}}>Attractions Button</button>
             </div>
         </div>
+        <div className="map section">
+            <div className='left'>
+                <h1>Map</h1>
+                <p>Welcome to the dynamic and ever-changing world of Fortnite! The island's expansive map is a true marvel, 
+                    featuring a diverse range of stunning landscapes and exciting locations to explore. Whether you're navigating the dense jungles, 
+                    traversing the rolling hills, or scaling towering mountains, the island's geography is sure to take your breath away. What's more, 
+                    the map is constantly evolving, with new areas and updates being added all the time, making each visit to Fortnite a unique and 
+                    exciting experience. With so much to discover and explore, the Fortnite map is a true masterpiece of virtual world-building, offering
+                     endless opportunities for adventure and discovery. So what are you waiting for? Strap on your boots and set out on an epic journey 
+                     through the world of Fortnite!</p>
+            </div>
+            <div className='right'>
+                <button className='map-button' onClick={() => {navigate('/map')}}>Attractions Button</button>
+            </div>
+        </div>
       </div>
     );
   }
