@@ -1,15 +1,32 @@
 import './css/Homepage.css'
 import {Routes, Route, Outlet, Link} from 'react-router-dom'
 import { useNavigate  } from 'react-router-dom';
+import fortniteBG from './img/fortnite_background.png'
 
 function Homepage() {
     const navigate = useNavigate();
 
     return (
       <div className="homepage">
+        <div className='title-content'>
+            <h1>Discover the Adventure of Fortnite Today!</h1>
+            <div>
+            Embark on an epic virtual journey and discover the thrill and excitement of Fortnite! 
+            With a dynamic and ever-evolving map, the island offers a diverse range of attractions, from lush 
+            forests and hidden caves to bustling city streets and towering skyscrapers.
+
+            Experience heart-pumping activities like zip-lining and skydiving, or unwind on cozy beaches and peaceful parks.
+            Indulge in delicious meals prepared by world-class chefs, or explore imaginative and diverse locations for a unique place to stay.
+
+            And with new areas constantly being added to the map, there's always something new to discover and explore in the world of 
+            Fortnite. So what are you waiting for? Grab your gear and join the adventure of a lifetime in Fortnite today!
+            </div>
+        </div>
         <div className="lodging section">
             <div className='left'>
-                <h1>Lodging</h1>
+                <Link to='/lodging' relative='path'>
+                    <h1>Lodging</h1>
+                </Link>
                 <p>Are you looking for a unique and exciting place to stay? Look no further than Fortnite! 
                     Explore the island's diverse and imaginative locations, from cozy cabins nestled in the woods 
                     to towering skyscrapers in the city. With endless opportunities for adventure, relaxation, and discovery,
@@ -22,7 +39,9 @@ function Homepage() {
         </div>
         <div className="restaurants section">
             <div className='left'>
-                <h1>Restaurants</h1>
+                <Link to='/restaurants' relative='path'>
+                    <h1>Restaurants</h1>
+                </Link>
                 <p>Are you a foodie in search of your next culinary adventure? Look no further than Fortnite's restaurants! 
                     From casual cafes to gourmet eateries, the island is home to a diverse range of dining options that will 
                     tantalize your taste buds. Indulge in delicious meals prepared by world-class chefs, or try out local favorites 
@@ -36,7 +55,9 @@ function Homepage() {
         </div>
         <div className="attractions section">
             <div className='left'>
-                <h1>Attractions</h1>
+                <Link to='/attractions' relative='path'>
+                    <h1>Attractions</h1>
+                </Link>
                 <p>Get ready for an unforgettable adventure on the island of Fortnite! With an array of exciting attractions, 
                     there's never a dull moment in this virtual wonderland. Take a stroll through the lush forests and discover 
                     hidden caves and waterfalls, or explore the bustling metropolis filled with towering skyscrapers and neon lights.
@@ -51,7 +72,9 @@ function Homepage() {
         </div>
         <div className="map section">
             <div className='left'>
-                <h1>Map</h1>
+                <Link to='/map' relative='path'>
+                    <h1>Map</h1>
+                </Link>
                 <p>Welcome to the dynamic and ever-changing world of Fortnite! The island's expansive map is a true marvel, 
                     featuring a diverse range of stunning landscapes and exciting locations to explore. Whether you're navigating the dense jungles, 
                     traversing the rolling hills, or scaling towering mountains, the island's geography is sure to take your breath away. What's more, 

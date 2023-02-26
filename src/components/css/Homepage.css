@@ -4,6 +4,19 @@
     --third-color: #68f0fc;
 }
 
+.title-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2% 30% 7%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 1.8;
+    text-align: center;
+    background: url("../img/fortnite_background.png");
+    font-weight: 700;
+}
+
 .section {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -24,19 +37,31 @@ button:hover {
 }
 
 .left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     margin: 10px 50px 50px 80px;
-    font-size: 23px;
+    font-size: 20px;
     letter-spacing: 2px;
     line-height: 1.8;
 }
 
+a {
+    padding: 0px;
+    text-decoration: underline;
+    color: rgb(0, 46, 8);
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+}
 
 
 .lodging, .attractions {
     background-color: var(--main-bg-color);
 }
 
-.restaurants, .map {
+.restaurants, .map, .title {
     background-color: var(--secondary-bg-color);
 }
 
