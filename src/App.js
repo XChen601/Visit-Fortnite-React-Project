@@ -1,6 +1,5 @@
 import './App.css';
 import { Routes, Route, Outlet, Link } from "react-router-dom";
-import { createContext } from "react";
 
 import Attractions from './components/Attractions'
 import Lodging from './components/Lodging' 
@@ -11,7 +10,7 @@ import Homepage from './components/Homepage';
 export default function App() {
   return (
     <div className="App">
-      <Routes basename="/Visit-Fortnite-React-Project">
+      <Routes>
         <Route path="/" element={<Header />}>
           <Route index element={<Homepage />} />
           <Route path="/lodging" element={<Lodging />} />
@@ -55,7 +54,7 @@ function Header() {
 function NoMatch() {
   return (
     <div>
-      <h2>Nothing to see here!!</h2>
+      <h2>Nothing to see here!</h2>
       <p>
         <Link to="/">Go to the home page</Link>
       </p>
