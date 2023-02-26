@@ -9,17 +9,17 @@
     grid-template-columns: 1fr 1fr;
 }
 
-.left {
-    margin: 0 50px 50px 80px;
-    font-size: 23px;
-    letter-spacing: 2px;
-}
-
 button {
     border: none;
     border-radius: 15px;
     box-shadow: 0 0 10px 5px var(--third-color);
     transition: transform .5s;
+}
+
+.left {
+    margin: 10px 50px 50px 80px;
+    font-size: 23px;
+    letter-spacing: 2px;
 }
 
 button:hover {
@@ -37,7 +37,7 @@ button:hover {
 
 .right {
     display: grid;
-    margin: 2% 20%;
+    margin: 3% 20%;
 }
 
 .lodging-button {
