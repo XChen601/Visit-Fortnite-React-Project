@@ -9,7 +9,7 @@ function Homepage() {
     return (
       <div className="homepage">
         <div className='title-content'>
-            <h1>Discover the Adventure of Fortnite Today!</h1>
+            <h1>Discover the Adventure of Fortnite!</h1>
             <div>
             Embark on an epic virtual journey and discover the thrill and excitement of Fortnite! 
             With a dynamic and ever-evolving map, the island offers a diverse range of attractions, from lush 
