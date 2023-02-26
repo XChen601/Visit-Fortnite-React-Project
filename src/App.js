@@ -1,5 +1,6 @@
 import './App.css';
 import { Routes, Route, Outlet, Link } from "react-router-dom";
+import { createContext } from "react";
 
 import Attractions from './components/Attractions'
 import Lodging from './components/Lodging' 
