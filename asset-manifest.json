@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Visit-Fortnite-React-Project/static/css/main.8322aea5.css",
-    "main.js": "/Visit-Fortnite-React-Project/static/js/main.8cacc274.js",
+    "main.js": "/Visit-Fortnite-React-Project/static/js/main.bbeff359.js",
     "static/js/787.a2bf511c.chunk.js": "/Visit-Fortnite-React-Project/static/js/787.a2bf511c.chunk.js",
     "static/media/fortnite_background.png": "/Visit-Fortnite-React-Project/static/media/fortnite_background.56ef952a70bb61cd3bc1.png",
     "static/media/tomatoeTown.webp": "/Visit-Fortnite-React-Project/static/media/tomatoeTown.c56e936e511d2950dc49.webp",
@@ -10,11 +10,11 @@
     "static/media/Flush_Factory_-_Location_-_Fortnite.webp": "/Visit-Fortnite-React-Project/static/media/Flush_Factory_-_Location_-_Fortnite.e479c71b1ca061449ad9.webp",
     "index.html": "/Visit-Fortnite-React-Project/index.html",
     "main.8322aea5.css.map": "/Visit-Fortnite-React-Project/static/css/main.8322aea5.css.map",
-    "main.8cacc274.js.map": "/Visit-Fortnite-React-Project/static/js/main.8cacc274.js.map",
+    "main.bbeff359.js.map": "/Visit-Fortnite-React-Project/static/js/main.bbeff359.js.map",
     "787.a2bf511c.chunk.js.map": "/Visit-Fortnite-React-Project/static/js/787.a2bf511c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8322aea5.css",
-    "static/js/main.8cacc274.js"
+    "static/js/main.bbeff359.js"
   ]
 }
