@@ -12,7 +12,7 @@ export default function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Header />}>
+        <Route path="/Visit-Fortnite-React-Project" element={<Header />}>
           <Route index element={<Homepage />} />
           <Route path="/lodging" element={<Lodging />} />
           <Route path="/restaurants" element={<Restaurants />} />
