@@ -20,7 +20,7 @@
 
 .section {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
     padding-bottom: 80px;
 }
 
@@ -29,6 +29,7 @@ button {
     border-radius: 15px;
     box-shadow: 0 0 10px 5px var(--third-color);
     transition: transform .5s, box-shadow 1s ease-in;
+    padding: 35%;
 }
 
 button:hover {
@@ -73,21 +74,21 @@ a:hover {
 
 .lodging-button {
     background: url("../img/fortnite_house.jpeg") no-repeat center center;
-    background-size: 100% 100%;
+    background-size: cover;
 }
 
 .restaurants-button {
     background: url("../img/tomatoeTown.webp") no-repeat center center;
-    background-size: 100% 100%;
+    background-size: cover;
 }
 
 .attractions-button {
     background: url("../img/Flush_Factory_-_Location_-_Fortnite.webp") no-repeat center center;
-    background-size: 100% 100%;
+    background-size: cover;
 }
 
 .map-button {
     background: url("../img/Season_1_Map.webp") no-repeat center center;
-    background-size: 100% 100%;
+    background-size: cover;
 }
 
