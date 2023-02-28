@@ -20,6 +20,7 @@ export default function App() {
           <Route path="*" element={<NoMatch />} />
         </Route>
       </Routes>
+      <Footer />
     </div>
   );
 }
@@ -60,4 +61,14 @@ function NoMatch() {
       </p>
     </div>
   );
+}
+
+function Footer() {
+  return (
+    <div className='footer'>
+      <nav>
+        Footer
+      </nav>
+    </div>
+  )
 }
