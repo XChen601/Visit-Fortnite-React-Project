@@ -1,5 +1,6 @@
 import './App.css';
 import { Routes, Route, Outlet, Link } from "react-router-dom";
+import { useState } from 'react';
 
 import Attractions from './components/Attractions'
 import Lodging from './components/Lodging' 
@@ -7,6 +8,7 @@ import Map from './components/Map'
 import Restaurants from './components/Restaurants' 
 import Homepage from './components/Homepage';
 
+import githubLogo from "./components/img/footerLogos/github_logo.png";
 export default function App() {
   return (
     <div className="App">
@@ -66,9 +68,16 @@ function NoMatch() {
 function Footer() {
   return (
     <div className='footer'>
-      <nav>
-        Footer
-      </nav>
+      <div></div>
+      <div>Copyright &copy; 2023 Xing Chen, Zuriel Garcia</div>
+      <div className='logos'>
+        <a href='https://github.com/XChen601'>
+          <img src={githubLogo} />
+        </a>
+        <a href='https://github.com/GooseyBoye'>
+          <img src={githubLogo} />
+        </a>
+      </div>
     </div>
   )
 }

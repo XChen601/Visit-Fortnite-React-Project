@@ -20,4 +20,18 @@
 
 .footer {
   background-color: #68f0fc;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+.footer img {
+  height: 27px;
+}
+
+.logos {
+  display: flex;
+  gap: 20px;
+  padding-right: 50px;
 }
