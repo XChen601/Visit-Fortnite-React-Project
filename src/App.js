@@ -25,6 +25,8 @@ export default function App() {
       <Footer />
     </div>
   );
+
+  
 }
 
 function Header() {
@@ -81,3 +83,4 @@ function Footer() {
     </div>
   )
 }
+
