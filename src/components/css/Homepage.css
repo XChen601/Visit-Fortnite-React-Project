@@ -1,12 +1,37 @@
-body {
-    background-color: #eafce3;
+:root {
+    --main-bg-color: #90EE90;
+    --secondary-bg-color: #c3f0c3;
+    --third-color: #68f0fc;
 }
 
-.grid-container {
+.title-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2% 23% 7%;
+    font-size: 23px;
+    letter-spacing: 2px;
+    line-height: 1.8;
+    text-align: center;
+    background: url("../img/fortnite_background.png");
+    background-attachment: fixed;
+    font-weight: 700;
+}
+
+.section {
     display: grid;
-
-    grid-template-columns: repeat(2, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+    padding-bottom: 80px;
 }
+
+button {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 5px var(--third-color);
+    transition: transform .5s, box-shadow 1s ease-in;
+    padding: 35%;
+}
+
 
 .grid-item {
     background-color: black;
@@ -21,34 +46,64 @@ body {
     border: medium solid rgb(0, 65, 16);;
     background-size: 100%;
     transition: transform .5s ease-in-out;
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: none;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px 50px 50px 80px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 1.8;
 }
 
 a {
-    text-decoration: none;
-}
-  
-
-.grid-item:hover {
-    transform: scale(1.08);
-    cursor: pointer;
+    padding: 0px;
+    text-decoration: underline;
+    color: rgb(0, 46, 8);
 }
 
-.map {
-    background: url("../img/Season_1_Map.webp") no-repeat;
-    background-size: 100%;
+a:hover {
+    color: rgb(0, 0, 0);
 }
 
-.restaurants {
-    background: url("../img/tomatoeTown.webp") no-repeat;
-    background-size: 110%;
+
+.lodging, .attractions {
+    background-color: var(--main-bg-color);
 }
 
-.lodging {
-    background: url("../img/Pleasant_Park_29_-_Location_-_Fortnite.webp") no-repeat;
-    background-size: 110%;
+.restaurants, .map, .title {
+    background-color: var(--secondary-bg-color);
 }
 
-.attractions {
-    background: url("../img/Flush_Factory_-_Location_-_Fortnite.webp") no-repeat;
-    background-size: 110%;
+.right {
+    display: grid;
+    margin: 5% 20%;
 }
+
+.lodging-button {
+    background: url("../img/fortnite_house.jpeg") no-repeat center center;
+    background-size: cover;
+}
+
+.restaurants-button {
+    background: url("../img/tomatoeTown.webp") no-repeat center center;
+    background-size: cover;
+}
+
+.attractions-button {
+    background: url("../img/Flush_Factory_-_Location_-_Fortnite.webp") no-repeat center center;
+    background-size: cover;
+}
+
+.map-button {
+    background: url("../img/Season_1_Map.webp") no-repeat center center;
+    background-size: cover;
+}
+
