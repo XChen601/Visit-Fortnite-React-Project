@@ -46,6 +46,7 @@ button {
     border: medium solid rgb(0, 65, 16);;
     background-size: 100%;
     transition: transform .5s ease-in-out;
+}
 
 button:hover {
     cursor: pointer;
