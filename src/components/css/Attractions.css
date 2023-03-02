@@ -4,26 +4,26 @@
     --third-color: #68f0fc;
 }
 
-.content:nth-child(2) {
+.location:nth-child(odd) {
+    background-color: var(--main-bg-color);
+}
+
+.location:nth-child(even) {
     background-color: var(--secondary-bg-color);
 }
 
-.content:nth-child(1) {
-    
-}
-.content {
-    margin: 0px;
-}
 .location {
     display: flex;
     flex-direction: column;
-    padding: 2% 3%;
+    padding: 2% 4%;
+    padding-bottom: 5%;
 }
 
 .description {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     font-size: 25px;
+    gap: 5%;
 
 }
 
