@@ -8,10 +8,8 @@ const ids = {
     "If you're a pizza lover, then you won't want to miss Pizza Pit. Located in the heart of Salty Springs, this restaurant serves up some of the best pizza in all of Fortnite. Visitors can enjoy a slice of pizza while taking in the cozy ambiance of the restaurant."},
   "id3" :{"title": "The Butter Barn", "description": 
     "Located in the outskirts of the map near Frenzy Farm, The Butter Barn is a charming little restaurant that serves up some of the best farm-to-table cuisine in Fortnite. Visitors can enjoy a delicious meal made with fresh ingredients, all while taking in the picturesque views of the surrounding countryside."},
-  "id4" :{"title": "The Slurp Juice Bar", "description": 
-    "The Slurp Juice Bar - If you're looking for a unique dining experience, then The Slurp Juice Bar is the place to go. This restaurant serves up a variety of drinks and food made with the famous Slurp Juice, which is known for its healing properties. Visitors can enjoy a meal that is both delicious and nutritious."},
-  "id5" :{"title": "The Craggy Cliffs Cafe", "description": 
-    "The Craggy Cliffs Cafe - For those who love seafood, The Craggy Cliffs Cafe is a must-visit destination. Located on the coast, this restaurant serves up some of the freshest seafood in all of Fortnite. Visitors can enjoy a seafood feast while taking in the breathtaking views of the ocean."},
+  "id4" :{"title": "Fishstick's Restaurant", "description": 
+    "Located in Craggy Cliffs, Fishstick's Restaurant is a popular seafood restaurant that serves up some of the freshest fish in all of Fortnite. Visitors can enjoy a variety of fish dishes, as well as some tasty sides like coleslaw and fries. The restaurant is named after its owner, Fishstick, who is a popular character in Fortnite and often makes appearances at the restaurant."},
 }
 
 
@@ -21,7 +19,7 @@ function Restaurants() {
     const [count, setCount] = useState(1);
 
     function increaseId() {
-      if (count === 5) {
+      if (count === 4) {
         setCount(1);
       }
       else setCount(count + 1);
@@ -29,7 +27,7 @@ function Restaurants() {
 
     function decreaseId() {
       if (count === 1) {
-        setCount(5);
+        setCount(4);
       }
       else setCount(count -1);
     }
