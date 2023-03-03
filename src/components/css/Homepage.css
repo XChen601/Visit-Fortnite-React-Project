@@ -1,7 +1,7 @@
 :root {
     --main-bg-color: #90EE90;
     --secondary-bg-color: #c3f0c3;
-    --third-color: #68f0fc;
+    --third-color: #68c3fc;
 }
 
 .title-content {
@@ -24,7 +24,7 @@
     padding-bottom: 80px;
 }
 
-button {
+.homepage button {
     border: none;
     border-radius: 15px;
     box-shadow: 0 0 10px 5px var(--third-color);

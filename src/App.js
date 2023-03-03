@@ -12,15 +12,14 @@ import githubLogo from "./components/img/footerLogos/github_logo.png";
 export default function App() {
   return (
     <div className="App">
+      <Header />
       <Routes>
-        <Route path="/" element={<Header />}>
-          <Route index element={<Homepage />} />
-          <Route path="/lodging" element={<Lodging />} />
-          <Route path="/restaurants" element={<Restaurants />} />
-          <Route path="/attractions" element={<Attractions />} />
-          <Route path="/map" element={<Map />} />
-          <Route path="*" element={<NoMatch />} />
-        </Route>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/lodging" element={<Lodging />} />
+        <Route path="/restaurants" element={<Restaurants />} />
+        <Route path="/attractions" element={<Attractions />} />
+        <Route path="/map" element={<Map />} />
+        <Route path="*" element={<NoMatch />} />
       </Routes>
       <Footer />
     </div>
