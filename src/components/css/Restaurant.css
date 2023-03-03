@@ -1,0 +1,67 @@
+.App {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.contents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    gap: 5%;
+    background-color: #c3f0c3;
+}
+
+.contents button {
+    height: 8%;
+    aspect-ratio: 1/1;
+    background-color: #90EE90;
+    border-radius: 15%;
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.main-image {
+    aspect-ratio: 1/1;
+    max-width: 500px;
+    height: auto;
+}
+
+.restaurant-section {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    padding: 2%;
+}
+
+.restaurant-title {
+    font-size: xx-large;
+}
+
+.restaurant-description {
+    padding-top: 5%;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.main-image {
+    border-radius: 25px;
+}
+
+#id1 .main-image {
+    background: url("../img/restaurant/durr_burger.webp") no-repeat center center;
+    background-size: cover;
+}
+#id2 .main-image {
+    background: url("../img/restaurant/pizza_pit.png") no-repeat center center;
+    background-size: cover;
+}
+#id3 .main-image {
+    background: url("../img/restaurant/butter_barn.png") no-repeat center center;
+    background-size: cover;
+}
+#id4 .main-image {
+    background: url("../img/restaurant/fish_sticks.jpg") no-repeat center center;
+    background-size: cover;
+}
