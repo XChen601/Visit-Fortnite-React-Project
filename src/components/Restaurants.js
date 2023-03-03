@@ -9,7 +9,7 @@ const ids = {
   "id3" :{"title": "The Butter Barn", "description": 
     "Located in the outskirts of the map near Frenzy Farm, The Butter Barn is a charming little restaurant that serves up some of the best farm-to-table cuisine in Fortnite. Visitors can enjoy a delicious meal made with fresh ingredients, all while taking in the picturesque views of the surrounding countryside."},
   "id4" :{"title": "Fishstick's Restaurant", "description": 
-    "Located in Craggy Cliffs, Fishstick's Restaurant is a popular seafood restaurant that serves up some of the freshest fish in all of Fortnite. Visitors can enjoy a variety of fish dishes, as well as some tasty sides like coleslaw and fries. The restaurant is named after its owner, Fishstick, who is a popular character in Fortnite and often makes appearances at the restaurant."},
+    "Located in Craggy Cliffs, Fishstick's Restaurant is a popular seafood restaurant that serves up some of the freshest fish in all of Fortnite. Visitors can enjoy a variety of fish dishes, as well as some tasty sides like coleslaw and fries. The restaurant is named after its owner, Fishstick."},
 }
 
 
