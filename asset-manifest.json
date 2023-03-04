@@ -1,28 +1,32 @@
 {
   "files": {
-    "main.css": "/Visit-Fortnite-React-Project/static/css/main.4f8eb6b5.css",
-    "main.js": "/Visit-Fortnite-React-Project/static/js/main.7719819c.js",
+    "main.css": "/Visit-Fortnite-React-Project/static/css/main.15373165.css",
+    "main.js": "/Visit-Fortnite-React-Project/static/js/main.fcedd01c.js",
     "static/js/787.a2bf511c.chunk.js": "/Visit-Fortnite-React-Project/static/js/787.a2bf511c.chunk.js",
     "static/media/fortnite_background.png": "/Visit-Fortnite-React-Project/static/media/fortnite_background.56ef952a70bb61cd3bc1.png",
     "static/media/pleasant_park.jpeg": "/Visit-Fortnite-React-Project/static/media/pleasant_park.6aeaec7aa0d4c59b54f0.jpeg",
     "static/media/the_spire.webp": "/Visit-Fortnite-React-Project/static/media/the_spire.4a5e84bff8cb0d100924.webp",
     "static/media/tilted-towers.jpg": "/Visit-Fortnite-React-Project/static/media/tilted-towers.c112d0d9f1a0f980707a.jpg",
+    "static/media/pizza_pit.png": "/Visit-Fortnite-React-Project/static/media/pizza_pit.17ce18d660f3e7dd7b12.png",
     "static/media/tomatoeTown.webp": "/Visit-Fortnite-React-Project/static/media/tomatoeTown.c56e936e511d2950dc49.webp",
+    "static/media/butter_barn.png": "/Visit-Fortnite-React-Project/static/media/butter_barn.0d3dd65997721caa1b45.png",
     "static/media/Season_1_Map.webp": "/Visit-Fortnite-React-Project/static/media/Season_1_Map.b404fbb4d266dcb7ff99.webp",
     "static/media/fortnite_house.jpeg": "/Visit-Fortnite-React-Project/static/media/fortnite_house.c5ee6181a50eaee88c97.jpeg",
     "static/media/Flush_Factory_-_Location_-_Fortnite.webp": "/Visit-Fortnite-React-Project/static/media/Flush_Factory_-_Location_-_Fortnite.e479c71b1ca061449ad9.webp",
+    "static/media/fish_sticks.jpg": "/Visit-Fortnite-React-Project/static/media/fish_sticks.1d30aa2b77c29de1ecc0.jpg",
     "static/media/slurpy_swamp.webp": "/Visit-Fortnite-React-Project/static/media/slurpy_swamp.ebca3e519c2bb3ad7a1b.webp",
+    "static/media/durr_burger.webp": "/Visit-Fortnite-React-Project/static/media/durr_burger.48e3d351c8d49f5836ea.webp",
     "static/media/slick.svg": "/Visit-Fortnite-React-Project/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/Visit-Fortnite-React-Project/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/Visit-Fortnite-React-Project/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Visit-Fortnite-React-Project/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Visit-Fortnite-React-Project/index.html",
-    "main.4f8eb6b5.css.map": "/Visit-Fortnite-React-Project/static/css/main.4f8eb6b5.css.map",
-    "main.7719819c.js.map": "/Visit-Fortnite-React-Project/static/js/main.7719819c.js.map",
+    "main.15373165.css.map": "/Visit-Fortnite-React-Project/static/css/main.15373165.css.map",
+    "main.fcedd01c.js.map": "/Visit-Fortnite-React-Project/static/js/main.fcedd01c.js.map",
     "787.a2bf511c.chunk.js.map": "/Visit-Fortnite-React-Project/static/js/787.a2bf511c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f8eb6b5.css",
-    "static/js/main.7719819c.js"
+    "static/css/main.15373165.css",
+    "static/js/main.fcedd01c.js"
   ]
 }
