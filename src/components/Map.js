@@ -1,50 +1,67 @@
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-
+import { useState } from "react";
 import './css/Cards.css'
-import React from 'react'
- 
-function Map() {
-
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-
-  };
+import Map1 from './img/maps/Chapter1S1.webp'
+import Map2 from './img/maps/Chapter1S4.webp'
+import Map3 from './img/maps/Chapter1S7.webp'
+import Map4 from './img/maps/dddd.webp'
+import Map5 from './img/maps/Chapter4S1.webp'
 
 
-  const slidesData = [
-    {
-      id: 1,
-      src: 'https://www.rd.com/wp-content/uploads/2018/02/30_Adorable-Puppy-Pictures-that-Will-Make-You-Melt_124167640_YamabikaY.jpg?fit=700,467',
-      title: 'repellendus id ullam',
-      label: 'Dolorem officiis temporibus.'
-    }, {
-      id: 2,
-      src: 'https://images.unsplash.com/photo-1600804340584-c7db2eacf0bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cHVwcHl8ZW58MHx8MHx8&w=1000&q=80',
-      title: 'excepturi consequatur est',
-      label: 'Officia non provident dolor esse et neque.'
-    }, 
-  ];
 
-  return (
-    <div className="content">
-      This page will show the fortnite mapddd
 
-      <Slider {...settings}>
-        {slidesData.map((slide) =>
-         <div className="slick-slide" key={slide.id}>
-              <h2 className="slick-slide-title">{slide.title}</h2>
-              <img className="slick-slide-image" src={slide.src} alt={slide.title} />
-              <label className="slick-slide-label">{slide.label}</label>
-          </div>
-        )}
-      </Slider>
+function Map() { 
 
+const [source, setSource] = useState(Map1);
+const [text, setText] = useState("Chapter 1 Season 1")
+
+function handleClickOne() {
+  setSource(Map1);
+  setText("Chapter 1 Season 1")
+}
+function handleClickTwo() {
+  setSource(Map2);
+  setText("Chapter 1 Season 4")
+
+}
+function handleClickThree() {
+  setSource(Map3);
+  setText("Chapter 1 Season 7")
+
+}
+function handleClickFour() {
+  setSource(Map4);
+  setText("Chapter 2 Season 8")
+
+}
+function handleClickFive() {
+  setSource(Map5);
+  setText("Chapter 4 Season 1")
+
+}
+return (
+  <div className="App-map">
+
+
+    <div className='contents-map'>
+
+    <div className="buttoncontainer">
+      <button className="button1"  onClick={handleClickOne}>Map 1</button>
+      <button className="button2" onClick={handleClickTwo}>Map 2</button>
+      <button className="button3" onClick={handleClickThree}>Map 3 </button>
+      <button className="button4" onClick={handleClickFour}>Map 4 </button>
+      <button className="button4" onClick={handleClickFive}>Map 5 </button>
     </div>
-  );
+
+      <img className= 'imgstyle' src = {source} alt= "hello"/>
+      
+
+    <div className="textCont"></div>
+      <h1 className="texto">{text}</h1>
+  
+
+    </div> 
+  </div>
+);
 }
 
 export default Map;
