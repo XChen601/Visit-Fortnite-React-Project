@@ -1,0 +1,99 @@
+/* .LodgeContent{
+    
+    background-image: url('https://cdn2.unrealengine.com/12br-delay-social-news-header-02-1920x1080-119208936.jpg');
+    
+    background-position: center;
+    background-attachment: fixed;
+    
+} */
+.Lodge{
+    
+    background-color: #90EE90;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 4%;
+    padding-bottom: 5%;
+}
+
+.Lodge-Titles{
+    color: rgb(14, 11, 11);
+}
+
+.Lodge-Description{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    font-size: 25px;
+    gap: 5%;
+}
+
+.grove-images {
+    height: 50vh;
+}
+.paradise-images {
+    height: 50vh;
+}
+
+.buttonContent{
+    display: flex;
+    gap: 10px;
+}
+.buttonStyle{
+    background-color: #15f7ff;
+    transition: transform .5s, box-shadow 1s ease-in;
+    color: white;
+    font-size: 2vw;
+    padding: 1vh 1.1vw;
+    border-radius: 2vw;
+    margin: 0.5vw 0;
+    cursor: pointer;
+}
+
+#id1 .grove-images {
+    background: url("../img/lodging/BrickHouse1.webp") no-repeat center center;
+    background-size: cover;
+}
+#id2 .grove-images {
+    background: url("../img/lodging/BrickHouse2.webp") no-repeat center center;
+    background-size: cover;
+}
+#id3 .grove-images {
+    background: url("../img/lodging/BrickHouse3.webp") no-repeat center center;
+    background-size: cover;
+}
+#id4 .grove-images {
+    background: url("../img/lodging/BrickHouse4.webp") no-repeat center center;
+    background-size: cover;
+}
+
+#id1 .paradise-images {
+    background: url("../img/lodging/Hotel1.webp") no-repeat center center;
+    background-size: cover;
+}
+#id2 .paradise-images {
+    background: url("../img/lodging/Hotel2.webp") no-repeat center center;
+    background-size: cover;
+}
+#id3 .paradise-images {
+    background: url("../img/lodging/Hotel10.webp") no-repeat center center;
+    background-size: cover;
+}
+#id4 .paradise-images {
+    background: url("../img/lodging/Hotel18.webp") no-repeat center center;
+    background-size: cover;
+}
+#id1 .fatal-images {
+    background: url("../img/lodging/FatalFarmhouse1.webp") no-repeat center center;
+    background-size: cover;
+}
+#id2 .fatal-images {
+    background: url("../img/lodging/FatalFarmhouse2.webp") no-repeat center center;
+    background-size: cover;
+}
+#id3 .fatal-images {
+    background: url("../img/lodging/FatalFarmhouse9.webp") no-repeat center center;
+    background-size: cover;
+}
+#id4 .fatal-images {
+    background: url("../img/lodging/FatalFarmhouse11.webp") no-repeat center center;
+    background-size: cover;
+}
