@@ -1,6 +1,6 @@
 .navbar ul{
   display: flex;
-  background-color: #68f0fc;
+  background-color: #2cd0e4;
   margin: 0;
   
 }
@@ -19,7 +19,7 @@
 }
 
 .footer {
-  background-color: #68f0fc;
+  background-color: #2cd0e4;
   display: flex;
   justify-content: space-between;
   padding: 10px;
