@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Visit-Fortnite-React-Project/static/css/main.c2be315c.css",
-    "main.js": "/Visit-Fortnite-React-Project/static/js/main.e467bcfb.js",
+    "main.css": "/Visit-Fortnite-React-Project/static/css/main.e01d1708.css",
+    "main.js": "/Visit-Fortnite-React-Project/static/js/main.670b3794.js",
     "static/js/787.a2bf511c.chunk.js": "/Visit-Fortnite-React-Project/static/js/787.a2bf511c.chunk.js",
     "static/media/fortnite_background.png": "/Visit-Fortnite-React-Project/static/media/fortnite_background.56ef952a70bb61cd3bc1.png",
     "static/media/pleasant_park.jpeg": "/Visit-Fortnite-React-Project/static/media/pleasant_park.6aeaec7aa0d4c59b54f0.jpeg",
@@ -34,12 +34,12 @@
     "static/media/FatalFarmhouse9.webp": "/Visit-Fortnite-React-Project/static/media/FatalFarmhouse9.95ae8ef4d96df50f199a.webp",
     "static/media/durr_burger.webp": "/Visit-Fortnite-React-Project/static/media/durr_burger.48e3d351c8d49f5836ea.webp",
     "index.html": "/Visit-Fortnite-React-Project/index.html",
-    "main.c2be315c.css.map": "/Visit-Fortnite-React-Project/static/css/main.c2be315c.css.map",
-    "main.e467bcfb.js.map": "/Visit-Fortnite-React-Project/static/js/main.e467bcfb.js.map",
+    "main.e01d1708.css.map": "/Visit-Fortnite-React-Project/static/css/main.e01d1708.css.map",
+    "main.670b3794.js.map": "/Visit-Fortnite-React-Project/static/js/main.670b3794.js.map",
     "787.a2bf511c.chunk.js.map": "/Visit-Fortnite-React-Project/static/js/787.a2bf511c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2be315c.css",
-    "static/js/main.e467bcfb.js"
+    "static/css/main.e01d1708.css",
+    "static/js/main.670b3794.js"
   ]
 }
