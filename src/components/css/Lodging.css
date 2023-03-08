@@ -33,6 +33,10 @@
     height: 50vh;
 }
 
+.fatal-images {
+    height: 50vh;
+}
+
 .buttonContent{
     display: flex;
     gap: 10px;
