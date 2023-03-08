@@ -6,6 +6,20 @@
     background-attachment: fixed;
     
 } */
+
+:root {
+    --main-bg-color: #90EE90;
+    --secondary-bg-color: #c3f0c3;
+    --third-color: #68f0fc;
+}
+
+.Lodge:nth-child(odd) {
+    background-color: var(--main-bg-color);
+}
+
+.Lodge:nth-child(even) {
+    background-color: var(--secondary-bg-color);
+}
 .Lodge{
     
     background-color: #90EE90;
